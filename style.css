@@ -1,0 +1,39 @@
+:root {
+  /* --background-color: rgb(36, 55, 99);
+  --primary-color: rgb(255, 110, 49);
+  --secondary-color: rgb(255, 235, 183); */
+
+  /*  */
+  /*  */
+
+  /* --background-color: rgb(253, 138, 138);
+  --primary-color: rgb(241, 247, 181);
+  --secondary-color: rgb(168, 209, 209); */
+
+  /*  */
+  /*  */
+
+  --background-color: rgb(36, 0, 65);
+  --primary-color: rgb(255, 130, 96);
+  --secondary-color: rgb(255, 64, 87);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Black Ops One", cursive;
+  background-color: var(--background-color);
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h1 {
+  color: var(--primary-color);
+  font-size: 20vh;
+}
